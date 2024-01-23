@@ -20,14 +20,12 @@ gem 'apia-yabeda'
 In an initializer, Hook into Apia's notifications by adding a handler that instruments the event with [ActiveSupport::Notifications](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html).
 
 ```ruby
-require 'apia/yabeda'
-
 Apia::Notifications.add_handler do |event, args|
   ActiveSupport::Notifications.instrument("#{event}.apia", args)
 end
 ```
 
-By requiring `apia/yabeda` we've trigged the Yabeda configuration automatically. `Apia::Yabeda` will then listen for these events and record metrics for them.
+Rails automatically requires `apia/yabeda` which triggers the Yabeda configuration. `Apia::Yabeda` will then listen for these events and record metrics for them.
 
 ## Tests and Linting
 
