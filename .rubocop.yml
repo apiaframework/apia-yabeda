@@ -1,0 +1,38 @@
+inherit_from:
+  - https://dev.k.io/rubocop/rubocop.yml
+require: rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.7
+  Exclude:
+    - Rakefile
+    - "bin/**/*"
+  SuggestExtensions: false
+
+# Always use double quotes
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 50
+
+Rspec/ExampleLength:
+  Max: 15
+
+RSpec/BeforeAfterAll:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
