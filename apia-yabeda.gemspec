@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Paul Sturgess"]
 
   spec.summary       = "Apia Yabeda integration"
-  spec.homepage      = "https://github.com/krystal/apia-yabeda"
+  spec.homepage      = "https://github.com/apiaframework/apia-yabeda"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/krystal/apia-yabeda"
-  spec.metadata["changelog_uri"] = "https://github.com/krystal/apia-yabeda/changelog.md"
+  spec.metadata["source_code_uri"] = "https://github.com/apiaframework/apia-yabeda"
+  spec.metadata["changelog_uri"] = "https://github.com/apiaframework/apia-yabeda/changelog.md"
 
   spec.metadata["rubygems_mfa_required"] = "false" # rubocop:disable Gemspec/RequireMFA (enabling MFA means we cannot auto publish via the CI)
 

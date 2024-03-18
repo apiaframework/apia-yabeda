@@ -1,6 +1,6 @@
 # Apia::Yabeda
 
-This gem collects [Prometheus](https://prometheus.io/) metrics for applications that use [Apia](https://github.com/krystal/apia) for their API and [Yabeda](https://github.com/yabeda-rb/yabeda) for their metrics.
+This gem collects [Prometheus](https://prometheus.io/) metrics for applications that use [Apia](https://github.com/apiaframework/apia) for their API and [Yabeda](https://github.com/yabeda-rb/yabeda) for their metrics.
 
 It records:
 
@@ -42,7 +42,7 @@ You can also run `bin/console` for an interactive prompt that will allow you to 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/krystal/apia-yabeda.
+Bug reports and pull requests are welcome on GitHub at https://github.com/apiaframework/apia-yabeda.
 
 ## License
 
